@@ -1,6 +1,9 @@
 # MECHREVO-Yilong15Pro2024-Hackintosh
 
-# 如果你要使用这个EFI，你需要更改BIOS的Secure boot，并且修改CFG和DVMT
+# 如果你要使用这个EFI，你需要更改BIOS设置
+* Secure Boot - Disabled
+* Fast Boot - Disabled
+此外无其他设置需要修改，不要使用UMAF修改Above 4g decoding 和 Resizable BAR，修改此两项会导致电脑黑屏假死，需要拆机刷写BIOS
 
 ## 下载地址
 <a href="[https://github.com/qiqco/MECHREVO-Yilong15Pro2024-Hackintosh/releases]">EFI下载地址<a/>
